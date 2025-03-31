@@ -1,0 +1,38 @@
+{
+  "assessment": {
+    "semantic_correctness": {
+      "score": 0,
+      "comment": "响应未匹配核心功能需求（空调控制），仅反馈识别失败。"
+    },
+    "state_change_confirmation": {
+      "score": 0,
+      "comment": "未执行空调开关操作，未提供状态变更信息。"
+    },
+    "unambiguous_expression": {
+      "score": 1,
+      "comment": "响应文本本身无歧义，但未解决原始指令意图。"
+    },
+    "overall_score": 0.33,
+    "valid": false,
+    "suggestions": [
+      "应优先执行空调开关指令，而非直接进入语音识别错误处理流程",
+      "若识别失败，建议补充引导（如：'您是要打开空调吗？'）以确认意图"
+    ]
+  }
+}
+
+{
+    'evaluation': {
+    'semantic_correctness': {
+        'score': 10, 
+        'comment': '响应准确匹配用户指令的核心功能需求，正确执行了空调开启操作。'
+        }, 
+    'state_change_confirmation': {
+        'score': 8, 
+        'comment': "响应明确告知操作结果（'空调已打开'），但未包含当前温度/模式等状态细节。"
+        }, 
+    'unambiguous_expression': {
+        'score': 10, 
+        'comment': '响应简洁无歧义，未使用可能引发混淆的表述。'
+        }, 
+    'improvement_suggestion': "建议补充状态细节（如：'空调已打开，当前25℃自动模式'）以提升确认感。}}
