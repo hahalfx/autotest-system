@@ -78,7 +78,7 @@ def create_evaluation_chain(
         llm = ChatOpenAI(
             base_url="https://openrouter.ai/api/v1",
             api_key=api_key,
-            model="deepseek/deepseek-chat-v3-0324:free",
+            model="google/gemini-2.0-flash-001",
         )
     else:
         raise ValueError(f"不支持的LLM提供商: {llm_provider}")

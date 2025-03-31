@@ -8,4 +8,7 @@ openai>=1.0
 dashscope>=1.14.0
 pytest>=7.0
 responses>=0.24.0
-
+pyaudio>=0.2.13
+fastapi>=0.109.0
+uvicorn>=0.27.0
+websockets>=12.0
