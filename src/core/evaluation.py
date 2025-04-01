@@ -71,7 +71,7 @@ def create_evaluation_chain(
         llm = ChatOpenAI(
             base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
             api_key=api_key,
-            model="qwen-max-latest",
+            model="deepseek-v3",
         )
     elif llm_provider == "openrouter":
         api_key = os.getenv("OPENROUTER_API_KEY")
