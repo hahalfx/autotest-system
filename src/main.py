@@ -2,7 +2,6 @@ from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from .core.evaluation import LLMEvaluator, EvaluationResult
-from .audio.asr import ASRModule
 from typing import Optional
 import sys
 from pathlib import Path

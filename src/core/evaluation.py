@@ -51,6 +51,8 @@ def create_evaluation_chain(
     4. overall_score: 三个维度的平均分
     5. valid: 测试是否通过
     6. suggestions: 改进建议列表
+
+    输出必须为中文
     
     输出必须严格符合以下JSON结构：
     {{
