@@ -1,2 +1,6 @@
 configs/.env
 .env
+ch_PP-OCRv4_rec_infer
+ch_PP-OCRv4_det_infer
+ch_PP-OCRv3_rec_slim_infer
+ch_PP-OCRv3_det_slim_infer
